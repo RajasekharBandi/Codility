@@ -73,7 +73,7 @@ public class MissingInteger {
 	        return smallest;
 	    }
 	    
-	    public static int solution3(int[] a) {//Codility-solutions
+	    public static int solution3(int[] a) {//solutions
 
 			HashSet<Integer> elements = new HashSet<>();
 			for (int i : a) {
@@ -87,7 +87,7 @@ public class MissingInteger {
 			return count;
 		}
 
-	    public static int solution4(int[] A) {//Codility-lessons
+	    public static int solution4(int[] A) {//lessons
 
 	        Integer[] array = Arrays.stream(A).boxed().toArray(Integer[]::new);
 	        HashSet<Integer> set = new HashSet(Arrays.asList(array));
